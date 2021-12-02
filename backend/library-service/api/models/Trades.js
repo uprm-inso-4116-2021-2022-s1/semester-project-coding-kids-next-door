@@ -1,5 +1,5 @@
 /**
- * Books.js
+ * Trades.js
  *
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -22,11 +22,11 @@ module.exports = {
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
+    trade_id: 'int',
     book_id: 'int',
-    title: 'string',
-    author: 'string',
-    ISBN: 'int',
-    available: 'boolean'
+    user_id: 'int',
+    borrow_date: 'datetime',
+    return_date: 'datetime'
 
   },
 
