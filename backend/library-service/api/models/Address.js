@@ -1,5 +1,5 @@
 /**
- * Books.js
+ * Address.js
  *
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -22,11 +22,14 @@ module.exports = {
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    bookId: 'number',
-    title: 'string',
-    author: 'string',
-    ISBN: 'number',
-    available: 'boolean'
+    addressId: 'number',
+    streetAddress1: 'string',
+    city: 'string',
+    state: 'string',
+    postalCode: 'number'
+
+
+
   },
 
 };
